@@ -6,9 +6,14 @@ a.Spike model (with risc-v pk) execution correctness: simulate programs atop the
 Run test on proxy kernel, output Hello World correctly
 ![image](https://user-images.githubusercontent.com/113034620/197505171-73e4ee8a-7d34-4955-aaa7-2cbe0c970902.png)
 
+![image](https://user-images.githubusercontent.com/113034620/198068896-8452aeb1-9512-460d-b04b-ca5bba80cf36.png)
+
 
 
 b.GreenRio core RTL execution correctness: pass some ISA tests (Synopsys VCS environment)- 10%
+![image](https://user-images.githubusercontent.com/113034620/198069013-e0ac990d-8d02-44e0-af4a-c5e41a3b4ca9.png)
+![image](https://user-images.githubusercontent.com/113034620/198068960-9c1d7f4f-888a-44e3-9444-5f0a99ba2333.png)
+
 
 c.Spike model + GreenRio RTL co-simulation system - 30%
 
