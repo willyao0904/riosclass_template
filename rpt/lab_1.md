@@ -6,13 +6,22 @@ a.Spike model (with risc-v pk) execution correctness: simulate programs atop the
 Run test on proxy kernel, output Hello World correctly
 ![image](https://user-images.githubusercontent.com/113034620/197505171-73e4ee8a-7d34-4955-aaa7-2cbe0c970902.png)
 
+![image](https://user-images.githubusercontent.com/113034620/198068896-8452aeb1-9512-460d-b04b-ca5bba80cf36.png)
+
 
 
 b.GreenRio core RTL execution correctness: pass some ISA tests (Synopsys VCS environment)- 10%
+![image](https://user-images.githubusercontent.com/113034620/198069013-e0ac990d-8d02-44e0-af4a-c5e41a3b4ca9.png)
+![image](https://user-images.githubusercontent.com/113034620/198068960-9c1d7f4f-888a-44e3-9444-5f0a99ba2333.png)
+
 
 c.Spike model + GreenRio RTL co-simulation system - 30%
 
 You need to run the elf file on the spike emulator and print the log - 5%
+![image](https://user-images.githubusercontent.com/113034620/198068609-e02033fe-890a-4564-85a2-72ee0f548e15.png)
+![image](https://user-images.githubusercontent.com/113034620/198068641-ac90cd2d-97e8-4dfa-9e37-53638c6177f3.png)
+
+
 
 You need to have GreenRio run the risc-v elf in an RTL simulation environment and get the corresponding results: register states, values, etc. -5%
 
