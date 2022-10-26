@@ -1,7 +1,7 @@
 `ifndef DECODE_V
 `define DECODE_V
 
-`include "../params.vh"
+`include "params.vh"
 module decode (
     input clk,
     input rstn,
@@ -581,6 +581,15 @@ end
         end
     end
   end
+
+
+`ifdef CPLUG
+import "DPI-C" function void inst_log(input int instruction);
+
+always@(negedge clk) begin
+    inst_log(instr);
+end
+`endif
 
 endmodule
 
