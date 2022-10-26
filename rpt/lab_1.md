@@ -3,7 +3,7 @@
 
 a.Spike model (with risc-v pk) execution correctness: simulate programs atop the proxy kernel - 10%
 
-Run test on proxy kernel, output Hello World correctly
+Run test on proxy kernel, output Hello World correctly@
 ![image](https://user-images.githubusercontent.com/113034620/197505171-73e4ee8a-7d34-4955-aaa7-2cbe0c970902.png)
 
 
