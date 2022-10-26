@@ -11,7 +11,9 @@ Run test on proxy kernel, output Hello World correctly
 b.GreenRio core RTL execution correctness: pass some ISA tests (Synopsys VCS environment)- 10%
 
 c.Spike model + GreenRio RTL co-simulation system - 30%
+
 You need to run the elf file on the spike emulator and print the log - 5%
+
 You need to have GreenRio run the risc-v elf in an RTL simulation environment and get the corresponding results: register states, values, etc. -5%
 
 
