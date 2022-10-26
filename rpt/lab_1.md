@@ -25,13 +25,21 @@ b.GreenRio core RTL execution correctness: pass some ISA tests (Synopsys VCS env
 
   4）在下面的lib中找其他的lib，把pdk里的lib换掉
   ![image](https://user-images.githubusercontent.com/113034620/197784997-38f59a4e-32e3-4930-baf3-b033acc3f797.png)
+
+  换lib之前
+  ![image](https://user-images.githubusercontent.com/113034620/198005737-62c03517-4e24-4744-8c49-98e20da7a534.png)
+
   换了lib之后
-  ![image](https://user-images.githubusercontent.com/113034620/197785644-97fc24ed-efce-4d0e-9a6b-5b5cfc713143.png)
-  
+  ![image](https://user-images.githubusercontent.com/113034620/198006109-f5546929-e159-466b-9881-8a9f9ca9bbfa.png)
+
   5）再跑一次，生成另一个log
-  ![image](https://user-images.githubusercontent.com/113034620/197786144-eb3c7de3-6042-4858-9879-649bad415399.png)
+  ![image](https://user-images.githubusercontent.com/113034620/198006681-2082d573-98c9-4332-aca8-cee010a81b8f.png)
  
  b.GreenRio core gate level netlist + Spike co-sim execution correctness 10%
  
-  跑完synthesis获得的netlist路径：
-  /work/stu/yaowei/workspace/OpenLane/designs/lab1_hehe/runs/RUN_2022.10.25_13.28.29/results/synthesis/
+ 1）GreenRio core gate level netlist
+ 跑完synthesis获得的netlist（.v文件），路径如下：
+  /work/stu/yaowei/workspace/OpenLane/designs/lab1_hehe/runs/RUN_2022.10.25_13.17.09/results/synthesis
+
+ 2）Spike co-sim execution correctness 
+ ....
