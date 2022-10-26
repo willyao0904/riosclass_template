@@ -13,6 +13,10 @@ b.GreenRio core RTL execution correctness: pass some ISA tests (Synopsys VCS env
 c.Spike model + GreenRio RTL co-simulation system - 30%
 
 You need to run the elf file on the spike emulator and print the log - 5%
+![image](https://user-images.githubusercontent.com/113034620/198068609-e02033fe-890a-4564-85a2-72ee0f548e15.png)
+![image](https://user-images.githubusercontent.com/113034620/198068641-ac90cd2d-97e8-4dfa-9e37-53638c6177f3.png)
+
+
 
 You need to have GreenRio run the risc-v elf in an RTL simulation environment and get the corresponding results: register states, values, etc. -5%
 
