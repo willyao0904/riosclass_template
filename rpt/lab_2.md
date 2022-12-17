@@ -1,5 +1,4 @@
 # C model for original GreenRio frontend 
-C frontend model(original), performance similarity of C model & RTL must within 20%, the less the better 
 Due to the lack of knowledge of cpu architecture and C++ object-oriented programming, I am currently catching up on the basics and will try to finish this part in the near future
 
 # Open EDA flow 
