@@ -10,8 +10,11 @@ Placement:
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/palcement
 ![image](https://user-images.githubusercontent.com/113034620/208232846-07e9e728-3e2e-494a-8e8a-fef2746275b5.png)
 
-cts：here is the log file of cts
+cts：
+here is the log file of cts
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/cts
+![image](https://user-images.githubusercontent.com/113034620/208232992-d3c9ca99-563a-4fba-8c9d-b88fac2e19ac.png)
+
 
 ## global routing
 Global routing:
