@@ -9,15 +9,15 @@ riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/synthesis
 
 
 ## 2.Floorplanning, placement and CTS
-2.1Floorplanning:
+2.1 Floorplanning:
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/floorplan
 ![image](https://user-images.githubusercontent.com/113034620/208232803-d6234d83-bd65-4cda-8942-6b7480a92c01.png)
 
-2.2Placement:
+2.2 Placement:
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/palcement
 ![image](https://user-images.githubusercontent.com/113034620/208232846-07e9e728-3e2e-494a-8e8a-fef2746275b5.png)
 
-2.3cts：
+2.3 cts：
 here is the log file of cts
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/cts
 ![image](https://user-images.githubusercontent.com/113034620/208232992-d3c9ca99-563a-4fba-8c9d-b88fac2e19ac.png)
