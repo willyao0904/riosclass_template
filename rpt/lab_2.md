@@ -1,12 +1,15 @@
-
+# C model for original GreenRio frontend 
+C frontend model(original), performance similarity of C model & RTL must within 20%, the less the better 
+Due to the lack of knowledge of cpu architecture and C++ object-oriented programming, I am currently catching up on the basics and will try to finish this part in the near future
 
 # Open EDA flow 
-## 1.GreenRio core(improved) RTL synthesis - 0%
+
+## 1.GreenRio core(improved) RTL synthesis 
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/synthesis
 ![image](https://user-images.githubusercontent.com/113034620/208233187-cf90e035-a305-4a4f-b4aa-d4a8fe47b3ac.png)
 
 
-## 2.Floorplanning, placement and CTS- 20% 
+## 2.Floorplanning, placement and CTS
 2.1Floorplanning:
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/floorplan
 ![image](https://user-images.githubusercontent.com/113034620/208232803-d6234d83-bd65-4cda-8942-6b7480a92c01.png)
@@ -21,7 +24,7 @@ riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/cts
 ![image](https://user-images.githubusercontent.com/113034620/208232992-d3c9ca99-563a-4fba-8c9d-b88fac2e19ac.png)
 
 
-##3. global routing
+## 3. global routing
 Global routing:
 riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/routing/11-global.log
 ![image](https://user-images.githubusercontent.com/113034620/208232866-9e9c5e33-787c-4016-9aa9-f5db7974dcb2.png)
