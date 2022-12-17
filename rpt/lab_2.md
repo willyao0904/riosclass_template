@@ -1,26 +1,24 @@
-# 1、C model for original GreenRio frontend - 25%
-C frontend model(original), performance similarity of C model & RTL must within 20%, the less the better 
-# 2、GreenRio pipeline performance improvement: frontend - 25%
-## (based on 1.a) C frontend model (improved) - 15%
-## (based on 2.a) RTL implementation, performance similarity of C model & RTL must within 20%, or the C model would be invalid - 10%
-
-# 3、Open EDA flow - 40%
+# Open EDA flow 
 ## GreenRio core(improved) RTL synthesis - 0%
-## (based on 3.a) GreenRio core(improved) floorplanning, placement and CTS- 20%
+
+## Floorplanning, placement and CTS- 20% 
 Floorplanning:
-/work/stu/yaowei/workspace/OpenLane/designs/hehe/runs/RUN_2022.12.12_12.20.49/logs/floorplan
-![](assets/Pasted%20image%2020221213103005.png)Placement:
-/work/stu/yaowei/workspace/OpenLane/designs/hehe/runs/RUN_2022.12.12_12.20.49/logs/palcement
-![](assets/Pasted%20image%2020221213104040.png)
-![](assets/Pasted%20image%2020221213104115.png)
+riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/floorplan
+![image](https://user-images.githubusercontent.com/113034620/208232803-d6234d83-bd65-4cda-8942-6b7480a92c01.png)
+
+Placement:
+riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/palcement
+![image](https://user-images.githubusercontent.com/113034620/208232846-07e9e728-3e2e-494a-8e8a-fef2746275b5.png)
+
 cts：here is the log file of cts
- /work/stu/yaowei/workspace/OpenLane/designs/hehe/runs/RUN_2022.12.12_12.20.49/logs/cts
+riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/cts
+
+## global routing
+Global routing:
+riosclass_template/openlane/RUN_2022.12.12_12.20.49/logs/routing/11-global.log
+![image](https://user-images.githubusercontent.com/113034620/208232866-9e9c5e33-787c-4016-9aa9-f5db7974dcb2.png)
 
 
-## (based on 3.b) GreenRio core(improved) global routing
-global routing:
-/work/stu/yaowei/workspace/OpenLane/designs/hehe/runs/RUN_2022.12.12_12.20.49/logs/routing/11-global.log
-![](assets/Pasted%20image%2020221213104900.png)
 
 
 
